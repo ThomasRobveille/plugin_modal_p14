@@ -1,11 +1,12 @@
 {
   "name": "plugin_modal_p14",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "",
   "main": "lib/Modal.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "doc": "jsdoc src -d docs"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "@babel/core": "^7.23.3",
     "@babel/preset-env": "^7.23.3",
     "@babel/preset-react": "^7.23.3",
+    "jsdoc": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

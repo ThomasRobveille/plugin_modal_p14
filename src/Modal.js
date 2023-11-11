@@ -2,7 +2,17 @@ import React from 'react';
 
 import './Modal.css'
 
+/**
+ * Composant Modal pour afficher du contenu modal.
+ * @component
+ * @param {Object} props - Propriétés du composant.
+ * @param {string} props.text - Texte à afficher dans le modal.
+ */
 function Modal({ text }) {
+  /**
+   * Fonction pour fermer le modal.
+   * @function
+   */
   const closeModal = () => {
     let containerModal = document.getElementById('containerModal');
     containerModal.style.display = 'none';
