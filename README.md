@@ -64,7 +64,7 @@ function Yourfunction() {
   }
 
   return (
-      <Modal {"text will be display"}/>
+      <Modal text={"text will be display"}/>
       <button onClick={() => openModal()}></button>
   )
 }

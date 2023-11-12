@@ -1,6 +1,6 @@
 {
   "name": "plugin_modal_p14",
-  "version": "1.0.18",
+  "version": "1.0.20",
   "description": "",
   "main": "lib/Modal.js",
   "scripts": {
